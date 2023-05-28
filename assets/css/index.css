@@ -167,7 +167,7 @@ section {
   margin-left: 1%;
 }
 .btn:hover {
-  background: var(--purple);
+  background: var(--gray);
   letter-spacing: 0.2rem;
   border: none;
   box-shadow: 2px 2px 3px;
@@ -278,14 +278,15 @@ section {
 }
 .project .container .box .content {
   height: 100%;
-  width: 75%;
+  width: 70%;
   position: absolute;
   top: 0;
   left: -100%;
-  background: #0d0c22;
+  background: var(--gray);
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0.9;
 }
 .project .container .box:hover .content {
   left: 0;
@@ -418,3 +419,4 @@ p {
 span {
   color: var(--pink);
 }
+
